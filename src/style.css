@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(182, 182, 184);
+}
+
+.container {
+    width: 100%;
+}
+
+.info {
+    color: black;
+    margin: 130px 140px;
+    position: absolute;
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.weather {
+    width: 380px;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 50px auto;
+    margin-right: 200px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(130deg, rgb(86, 86, 235), rgb(5, 5, 199));
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: none;
+    outline: 0;
+    padding: 12px 15px;
+    font-size: 18px;
+    background-color: rgb(222, 237, 243);
+    color: black;
+    border-radius: 7px;
+    flex: 1;
+    margin-right: 12px;
+}
+
+.search button {
+    border: none;
+    outline: 0;
+    width: 30px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: -49px;
+}
+
+.search button img {
+    width: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+.winfo .icon {
+    margin-top: 5px;
+    width: 160px;
+}
+
+.winfo h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.winfo h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -40px;
+}
+.winfo h3{
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+.details .col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.details .col img {
+    width: 45px;
+    margin-right: 5px;
+}
+
+.humidity,
+.wind {
+    font-size: 27px;
+}
+
+.humidity p,
+.wind p {
+    margin: 0px;
+}
+
+.error {
+    color: rgb(235, 169, 169);
+    text-align: left;
+    margin-left: 10px;
+}
